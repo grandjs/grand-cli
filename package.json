@@ -1,0 +1,48 @@
+{
+  "name": "grand-cli",
+  "version": "1.0.1",
+  "description": "A grandjs cli to auto generate projects for grandjs",
+  "preferGlobal": true,
+  "main": "lib/index.js",
+  "bin": "lib/bin/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon",
+    "build": "tsc -p ."
+  },
+  "keywords": [
+    "nodejs",
+    "grandjs",
+    "nodejs",
+    "boilerplate",
+    "code",
+    "generate",
+    "project",
+    "generate"
+  ],
+  "author": "Tarek Salem",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/chalk": "^2.2.0",
+    "@types/colors": "^1.2.1",
+    "@types/commander": "^2.12.2",
+    "@types/fs-extra": "^9.0.1",
+    "@types/inquirer": "^7.3.0",
+    "@types/node": "^14.0.25",
+    "@types/shelljs": "^0.8.8",
+    "ts-node": "^8.10.2",
+    "typescript": "^3.9.7"
+  },
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "colors": "^1.4.0",
+    "commander": "^6.0.0",
+    "fs-extra": "^9.0.1",
+    "inquirer": "^7.3.3",
+    "shelljs": "^0.8.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tareksalem/grand-cli"
+  }
+}
